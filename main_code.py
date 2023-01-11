@@ -137,6 +137,9 @@ def movedrone(x,y):
     print(f'Roll : {roll_value} Pitch {pitch_value}')
     transmit(roll_value , pitch_value , throtle_value)
     return
+
+
+
 def find(pitch_value, throtle_value,  aruco_found, gap):
 
 
@@ -154,7 +157,7 @@ def find(pitch_value, throtle_value,  aruco_found, gap):
 #takeoff()
     Hover()
 #move forward to drop zone
-    pitch_value= MAX_PITCH
+    pitch_value= 
 
 #drop the package
     if (ids.at(i) == 46):# some random id
